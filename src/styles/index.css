@@ -22,3 +22,7 @@
     height: 100%;
     caret-color: transparent !important;
   }
+
+  a{
+    text-decoration: none;
+  }
