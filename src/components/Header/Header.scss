@@ -32,22 +32,38 @@
         justify-content: flex-start;
       }
       .menu {
-        width: 50%;
+        width: 60%;
         height: 100%;
         display: flex;
         align-items: center;
         justify-content: space-between;
         .menu__link {
+          font-family: "Kanit", serif;
+          font-weight: 400;
           &:hover {
             color: #efd912;
             transition: all 0.8s ease-in-out;
           }
-          .live-stream {
-            button {
-              width: 150px;
-              height: 100%;
-              border-radius: 20px;
-              background-color: rgb(29, 29, 29);
+          .live_stream {
+            font-family: "Kanit", serif;
+            display: flex;
+            width: 200px;
+            height: 60px;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            border-radius: 36px;
+            border-right: 1px solid #efd912;
+            border-left: 4px solid #efd912;
+            background: red; /* default color */
+            background: linear-gradient(to left, #292929 50%, #efd912 50%) right;
+            background-size: 200%;
+            transition: 0.8s ease-out;
+
+            &:hover {
+              border-left: 3px solid #292929;
+              background-position: left;
             }
           }
         }
