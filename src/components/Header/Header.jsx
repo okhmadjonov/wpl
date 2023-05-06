@@ -8,7 +8,7 @@ const Header = () => {
       <div className="header__container">
         <div className="header__container-wrapper">
           <div className="logo">
-            <Link>
+            <Link to="/">
               <img src={logo} alt="Logo" />
             </Link>
           </div>
@@ -17,8 +17,8 @@ const Header = () => {
             <Link to={'/Event'} className="menu__link">WPL EVENT #2, 4/20</Link>
             <Link className="menu__link">PLAYERS</Link>
             <Link className="menu__link">PAST RESULTS</Link>
-            <Link className="menu__link live-stream">
-              <button>LIVE STREAM</button>
+            <Link className="menu__link">
+              <div className="live_stream">LIVE STREAM</div>
             </Link>
           </div>
         </div>
