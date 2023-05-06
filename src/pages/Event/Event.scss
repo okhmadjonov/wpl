@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600;700;800&display=swap");
+
+.Event__page{
+    width: 100%;
+    height: 100%;
+    font-family: "Source Sans Pro", sans-serif;
+    .Event__container{
+        width: 100%;
+        height: 100%;
+        .back_image{
+            width: 100%;
+            height: 70vh;
+            background: url(../../assets/images/eventbanner.jpg);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-size: cover;
+            h1{
+                font-weight: 700;
+                color: #FFFFFF;
+                font-size: 40px;
+            }
+        }
+        .Wrapper{
+            width: 100%;
+            height: 100%;
+            .wrap__container{
+                width: 100%;
+                height: 100%;
+                overflow: hidden;
+                .List__part{
+                    width: 100%;
+                    height: 100%;
+                    margin-top: 50px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    overflow: hidden;
+                    .List{
+                        width: 90%;
+                        height: 750px;
+                        overflow: hidden;
+                        iframe{
+                            overflow: hidden;
+                        }
+                        
+                    }
+                }
+                .aboutpart{
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .videowrap{
+                        width: 100%;
+                        height: 100%;
+                        max-width: 800px;
+                        .videopart{
+                            width: 100%;
+                            height: 100%;
+                        }
+                        .txtpart{
+                            width: 100%;
+                            height: 100%;
+                            text-align: center;
+                            margin-top: 40px;
+                            ul{
+                                margin-top: 30px;
+                                .tee__section-point{
+                                    text-align: left;
+                                    color: #666;
+                                    font-size: 20px;
+                                    margin-top: 20px;
+                                    line-height: 20px;
+                                    
+                                }
+                            }
+                            .tee__section-title{
+                                margin-top: 20px;
+                            }
+                        }
+                    }
+                }
+                .imgpart{
+                    width: 100%;
+                    height: 100%;
+                    .imgcontainer{
+                        width: 100%;
+                        height: 100%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin-top: 50px;
+                        img{
+                            width: 85%;
+                            height: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
