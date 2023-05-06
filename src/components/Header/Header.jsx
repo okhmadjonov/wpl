@@ -13,11 +13,11 @@ const Header = () => {
             </Link>
           </div>
           <div className="menu">
-            <Link>HOME</Link>
-            <Link>WPL EVENT #2, 4/20</Link>
-            <Link>PLAYERS</Link>
-            <Link>PAST RESULTS</Link>
-            <Link>
+            <Link className="menu__link">HOME</Link>
+            <Link className="menu__link">WPL EVENT #2, 4/20</Link>
+            <Link className="menu__link">PLAYERS</Link>
+            <Link className="menu__link">PAST RESULTS</Link>
+            <Link className="menu__link live-stream">
               <button>LIVE STREAM</button>
             </Link>
           </div>
