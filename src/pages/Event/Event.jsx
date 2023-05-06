@@ -62,7 +62,7 @@ const Event = () => {
     
                             </div>
                         </div>
-                        <div className="imgpart">
+                        <div className="imagegpart">
                             <div className="imgcontainer">
                                 <img src={tee} alt="tee" />
                             </div>
