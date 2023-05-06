@@ -19,7 +19,7 @@ const Header = () => {
             <Link to={"/Event"} className="menu__link">
               WPL EVENT #2, 4/20
             </Link>
-            <Link className="menu__link">PLAYERS</Link>
+            <Link to={'/Players'} className="menu__link">PLAYERS</Link>
             <Link className="menu__link">PAST RESULTS</Link>
             <Link className="menu__link">
               <div className="live_stream">LIVE STREAM</div>
