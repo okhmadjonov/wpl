@@ -1,5 +1,5 @@
 .recap {
-  margin-top: 100px;
+  margin-top: 50px;
   width: 100%;
   height: 90vh;
   .recap__container {
@@ -11,7 +11,23 @@
     .recap__container-wrapper {
       width: 100%;
       height: 100%;
-      border: 1px solid black;
+
+      .recap_title {
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        p {
+          font-family: "Kanit", serif;
+          font-size: 36px;
+        }
+      }
+      .recap_vid {
+        width: 100%;
+        height: 80vh;
+      }
     }
   }
 }
