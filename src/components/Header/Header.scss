@@ -31,6 +31,14 @@
         align-items: center;
         justify-content: flex-start;
       }
+
+      .active {
+        font-family: "Kanit", serif;
+        font-weight: 400;
+        color: #efd912;
+        font-size: 20px;
+        font-weight: 500;
+      }
       .menu {
         width: 60%;
         height: 100%;
