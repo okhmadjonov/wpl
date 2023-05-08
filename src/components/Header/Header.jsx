@@ -71,11 +71,6 @@ const Header = () => {
               <div className="live_stream">LIVE STREAM</div>
             </Link>
           </div>
-          <div className="burger">
-            <div></div>
-            <div></div>
-            <div></div>
-          </div>
         </div>
       </div>
     </div>
