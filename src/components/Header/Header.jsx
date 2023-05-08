@@ -41,6 +41,7 @@ const Header = () => {
 
   return (
 
+
     <>
       <div className="header">
         <div className="header__container">
@@ -84,6 +85,7 @@ const Header = () => {
               <AiOutlineMenu onClick={handleClick} style={{display: isShown ? 'block' : 'none', color: '#FFFFFF', fontSize: '2rem'}}/>
               <AiOutlineClose onClick={handleClick} style={{display: isShown ? 'none' : 'block', color: '#FFFFFF', fontSize: '2rem'}}/> 
             </div>
+
           </div>
         </div>
       </div>    
