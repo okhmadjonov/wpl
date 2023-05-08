@@ -2,6 +2,7 @@ import React from "react";
 import ReactPlayer from "react-player";
 import tee from '../../assets/images/TeeTimes_42023.png';
 import './Event.scss';
+import Footer from "../../components/Footer/Footer";
 
 const Event = () => {
     return(
@@ -62,10 +63,13 @@ const Event = () => {
     
                             </div>
                         </div>
-                        <div className="imgpart">
+                        <div className="imagepart">
                             <div className="imgcontainer">
                                 <img src={tee} alt="tee" />
                             </div>
+                        </div>
+                        <div>
+                            <Footer/>
                         </div>
                     </div>
                 </div>
