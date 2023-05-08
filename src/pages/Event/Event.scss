@@ -2,159 +2,163 @@
 @import url("https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600;700;800&display=swap");
 
-.Event__page{
+.Event__page {
+  width: 100%;
+  height: 100%;
+  font-family: "Source Sans Pro", sans-serif;
+  @media screen and (max-width: 1200px) {
     width: 100%;
     height: 100%;
-    font-family: "Source Sans Pro", sans-serif;
-    @media screen and ( max-width: 1200px ) {
-        width: 100%;
-        height: 100%;
+  }
+  .Event__container {
+    width: 100%;
+    height: 100%;
+    @media screen and (max-width: 1200px) {
+      width: 100%;
+      height: 100%;
     }
-    .Event__container{
+    .back_image {
+      width: 100%;
+      height: 500px;
+      background: url(../../assets/images/banner4.jpg);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-size: cover;
+      @media screen and (max-width: 767px) {
+        width: 100%;
+        height: 400px;
+      }
+      h1 {
+        font-weight: 700;
+        color: #ffffff;
+        font-size: 40px;
+      }
+    }
+    .Wrapper {
+      width: 100%;
+      height: 100%;
+      .wrap__container {
         width: 100%;
         height: 100%;
-        @media screen and ( max-width: 1200px ) {
+        overflow: hidden;
+        .List__part {
+          width: 100%;
+          height: 100%;
+          margin-top: 50px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          overflow: hidden;
+          .List {
+            width: 90%;
+            height: 750px;
+            overflow: hidden;
+            iframe {
+              overflow: hidden;
+            }
+          }
+        }
+        .aboutpart {
+          width: 100%;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          .videowrap {
             width: 100%;
             height: 100%;
+            max-width: 800px;
+            @media screen and (max-width: 991px) {
+              width: 100%;
+              max-width: 696px;
+              display: grid;
+              justify-content: center;
+              align-items: center;
+            }
+            @media screen and (max-width: 767px) {
+              max-width: 516px;
+              display: grid;
+              justify-content: center;
+              align-items: center;
+            }
+            .videopart {
+              width: 100%;
+              height: 400px;
+              max-width: 800px;
+              @media screen and (max-width: 991px) {
+                width: 100%;
+                height: 391px;
+              }
+              @media screen and (max-width: 767px) {
+                width: 100%;
+                height: 290px;
+              }
+            }
+            .txtpart {
+              width: 100%;
+              height: 100%;
+              text-align: center;
+              margin-top: 40px;
+              ul {
+                margin-top: 30px;
+                .tee__section-point {
+                  text-align: left;
+                  color: #666;
+                  font-size: 20px;
+                  margin-top: 20px;
+                  line-height: 20px;
+                }
+              }
+              .tee__section-title {
+                margin-top: 20px;
+              }
+            }
+          }
         }
-        .back_image{
+        .imagepart {
+          width: 100%;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-top: 50px;
+          .imgcontainer {
             width: 100%;
-            height: 500px;
-            background: url(../../assets/images/banner4.jpg);
+            height: 100%;
+            max-width: 1296px;
             display: flex;
             justify-content: center;
             align-items: center;
-            background-size: cover;
-            @media screen and ( max-width: 767px ) {
+            @media screen and (max-width: 991px) {
+              width: 100%;
+              max-width: 696px;
+            }
+            @media screen and (max-width: 767px) {
+              width: 100%;
+              max-width: 516px;
+            }
+            img {
+              width: 85%;
+              height: 100%;
+              @media screen and (max-width: 991px) {
                 width: 100%;
-                height: 400px;
-            }
-            h1{
-                font-weight: 700;
-                color: #FFFFFF;
-                font-size: 40px;
-            }
-        }
-        .Wrapper{
-            width: 100%;
-            height: 100%;
-            .wrap__container{
+              }
+              @media screen and (max-width: 767px) {
                 width: 100%;
-                height: 100%;
-                overflow: hidden;
-                .List__part{
-                    width: 100%;
-                    height: 100%;
-                    margin-top: 50px;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    overflow: hidden;
-                    .List{
-                        width: 90%;
-                        height: 750px;
-                        overflow: hidden;
-                        iframe{
-                            overflow: hidden;
-                        }
-                        
-                    }
-                }
-                .aboutpart{
-                    width: 100%;
-                    height: 100%;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    .videowrap{
-                        width: 100%;
-                        height: 100%;
-                        max-width: 800px;
-                        @media screen and ( max-width: 991px ) {
-                            width: 100%;
-                            max-width: 696px;
-                            display: grid;
-                            justify-content: center;
-                            align-items: center;
-                        }
-                        @media screen and ( max-width: 767px ) {
-                            max-width: 516px;
-                            display: grid;
-                            justify-content: center;
-                            align-items: center;
-                        }
-                        .videopart{
-                            width: 100%;
-                            height: 400px;
-                            max-width: 800px;
-                            @media screen and ( max-width: 991px ) {
-                                width: 100%;
-                                height: 391px;
-                            }
-                            @media screen and ( max-width: 767px ) {
-                                width: 100%;
-                                height: 290px;
-                            }
-                        }
-                        .txtpart{
-                            width: 100%;
-                            height: 100%;
-                            text-align: center;
-                            margin-top: 40px;
-                            ul{
-                                margin-top: 30px;
-                                .tee__section-point{
-                                    text-align: left;
-                                    color: #666;
-                                    font-size: 20px;
-                                    margin-top: 20px;
-                                    line-height: 20px;
-                                    
-                                }
-                            }
-                            .tee__section-title{
-                                margin-top: 20px;
-                            }
-                        }
-                    }
-                }
-                .imagepart{
-                    width: 100%;
-                    height: 100%;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    margin-top: 50px;
-                    .imgcontainer{
-                        width: 100%;
-                        height: 100%;
-                        max-width: 1296px;
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
-                        @media screen and ( max-width: 991px ) {
-                            width: 100%;
-                            max-width: 696px;
-                        }
-                        @media screen and ( max-width: 767px ) {
-                            width: 100%;
-                            max-width: 516px;
-                        }
-                        img{
-                            width: 85%;
-                            height: 100%;
-                            @media screen and ( max-width: 991px ) {
-                                width: 100%;
-                            }
-                            @media screen and ( max-width: 767px ) {
-                                width: 100%;
-                            }
-                        }
-                    }
-                }
+              }
             }
+          }
         }
+      }
     }
+  }
 }
 
-
+.blur1 {
+  position: absolute;
+  background: rgba(3, 26, 83, 0.2);
+  backdrop-filter: blur(1px);
+  height: 53vh;
+  width: 100%;
+}

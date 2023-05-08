@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "../../assets/images/logo.png";
-import {AiOutlineMenu, AiOutlineClose} from 'react-icons/ai';
+import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import "./Header.scss";
 const Header = () => {
-
   const [isShown, setIsShown] = useState(true);
   const handleClick = (event) => {
     setIsShown((current) => !current);
@@ -36,8 +35,6 @@ const Header = () => {
   }
 
   return (
-
-
     <>
       <div className="header">
         <div className="header__container">
@@ -71,22 +68,32 @@ const Header = () => {
                 onClick={() => setCount(4)}>
                 PAST RESULTS
               </Link>
-              <Link
-                className={step5 ? "active" : "menu__link"}
-                onClick={() => setCount(5)}>
+              <Link className="menu__link">
                 <div className="live_stream">LIVE STREAM</div>
               </Link>
             </div>
-            <div className="burgermenu" >
-              <AiOutlineMenu onClick={handleClick} style={{display: isShown ? 'block' : 'none', color: '#FFFFFF', fontSize: '2rem'}}/>
-              <AiOutlineClose onClick={handleClick} style={{display: isShown ? 'none' : 'block', color: '#FFFFFF', fontSize: '2rem'}}/> 
+            <div className="burgermenu">
+              <AiOutlineMenu
+                onClick={handleClick}
+                style={{
+                  display: isShown ? "block" : "none",
+                  color: "#FFFFFF",
+                  fontSize: "2rem",
+                }}
+              />
+              <AiOutlineClose
+                onClick={handleClick}
+                style={{
+                  display: isShown ? "none" : "block",
+                  color: "#FFFFFF",
+                  fontSize: "2rem",
+                }}
+              />
             </div>
-
           </div>
         </div>
-      </div>    
+      </div>
     </>
-
   );
 };
 
