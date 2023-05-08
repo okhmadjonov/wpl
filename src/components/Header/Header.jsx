@@ -80,43 +80,6 @@ const Header = () => {
                 <div className="live_stream">LIVE STREAM</div>
               </Link>
             </div>
-{/*             <div onClick={handleClick} style={{marginLeft: isShown?  '100%' : '-100%',  gap: '20px' }} className="menubar">
-              <div className="logo">
-                <Link to="/">
-                  <img src={logo} alt="Logo" />
-                </Link>
-              </div>
-              <div className="menu">
-                <Link
-                  to="/"
-                  className={step1 ? "active" : "menu__link"}
-                  onClick={() => setCount(1)}>
-                  HOME
-                </Link>
-                <Link
-                  to={"/Event"}
-                  className={step2 ? "active" : "menu__link"}
-                  onClick={() => setCount(2)}>
-                  WPL EVENT #2, 4/20
-                </Link>
-                <Link
-                  to={"/Players"}
-                  className={step3 ? "active" : "menu__link"}
-                  onClick={() => setCount(3)}>
-                  PLAYERS
-                </Link>
-                <Link
-                  className={step4 ? "active" : "menu__link"}
-                  onClick={() => setCount(4)}>
-                  PAST RESULTS
-                </Link>
-                <Link
-                  className={step5 ? "active" : "menu__link"}
-                  onClick={() => setCount(5)}>
-                  <div className="live_stream">LIVE STREAM</div>
-                </Link>
-              </div>
-            </div> */}
             <div className="burgermenu" >
               <AiOutlineMenu onClick={handleClick} style={{display: isShown ? 'block' : 'none', color: '#FFFFFF', fontSize: '2rem'}}/>
               <AiOutlineClose onClick={handleClick} style={{display: isShown ? 'none' : 'block', color: '#FFFFFF', fontSize: '2rem'}}/> 
