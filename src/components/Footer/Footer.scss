@@ -41,7 +41,7 @@
       .footer_icons {
         width: 100%;
         height: 100px;
-        margin-top: 50px;
+
         display: flex;
         align-items: center;
         justify-content: flex-end;
@@ -55,8 +55,18 @@
           color: #fff;
           cursor: pointer;
           justify-content: flex-end;
+          &:hover {
+            color: #efd912;
+            transition: 1s ease-in-out;
+          }
         }
       }
     }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .footer__container-wrapper {
+    padding: 10px;
   }
 }
