@@ -24,8 +24,8 @@ const Event = () => {
                             <div className="videowrap">
                                 <div className="videopart">
                                     <ReactPlayer
-                                        width="800px"
-                                        height="400px"
+                                        width="100%"
+                                        height="100%"
                                         controls
                                         url="https://www.youtube.com/embed/_FO1wLJzCQQ"
                                     /> 
