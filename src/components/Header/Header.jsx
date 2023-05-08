@@ -1,8 +1,16 @@
-import React from "react";
+import React, {useState} from "react";
 import { Link } from "react-router-dom";
 import logo from "../../assets/images/logo.png";
+import {AiOutlineMenu, AiOutlineClose} from 'react-icons/ai';
 import "./Header.scss";
+
 const Header = () => {
+
+  const [isShown, setIsShown] = useState(true);
+  const handleClick = (event) => {
+    setIsShown((current) => !current);
+  };
+
   return (
     <div className="header">
       <div className="header__container">
@@ -24,6 +32,10 @@ const Header = () => {
             <Link className="menu__link">
               <div className="live_stream">LIVE STREAM</div>
             </Link>
+          </div>
+          <div className="burgermenu" >
+            <AiOutlineMenu onClick={handleClick} style={{display: isShown ? 'block' : 'none'}}/>
+            <AiOutlineClose onClick={handleClick} style={{display: isShown ? 'none' : 'block'}}/>
           </div>
         </div>
       </div>
