@@ -66,8 +66,8 @@ const Header = () => {
               PAST RESULTS
             </Link>
             <Link
-              className={step5 ? "active" : "menu__link"}
-              onClick={() => setCount(5)}>
+              to="https://watch.proleaguenetwork.com/"
+              className="menu__link">
               <div className="live_stream">LIVE STREAM</div>
             </Link>
           </div>
